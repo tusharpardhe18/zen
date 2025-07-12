@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Funnel+Display:wght@300..800&display=swap");
+@import "tailwindcss";
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Funnel Display", sans-serif;
+}
