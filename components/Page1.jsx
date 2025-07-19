@@ -24,7 +24,8 @@ const Page1 = () => {
     <section className="bg-black text-white min-h-screen px-12 py-[10%]">
       <div>
         <h1 className="text-6xl font-bold mb-12 leading-tight">
-          Experience Seamless Shopping with <br /> Our User-Friendly Interface
+          <p>Experience Seamless Shopping with</p>
+          <p>Our User-Friendly Interface</p>
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-8 justify-around">

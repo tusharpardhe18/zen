@@ -11,25 +11,55 @@ const Navbar = () => {
         <a href="#about" className="text-white hover:text-gray-300 font-medium">
           ABOUT US
         </a>
-        <a
-          href="#categories"
-          className="text-white hover:text-gray-300 font-medium flex items-center"
-        >
-          CATEGORIES
-          <svg
-            className="ml-1 w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
+        <div className="relative group">
+          <a
+            href="#categories"
+            className="text-white hover:text-gray-300 font-medium flex items-center"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </a>
+            CATEGORIES
+            <svg
+              className="ml-1 w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </a>
+          <div className="absolute left-0 mt-2 w-40 bg-[#222] rounded shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-10">
+            <ul className="py-2">
+              <li>
+                <a
+                  href="#electronics"
+                  className="block px-4 py-2 text-white hover:bg-[#2E8B57]"
+                >
+                  Electronics
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#fashion"
+                  className="block px-4 py-2 text-white hover:bg-[#2E8B57]"
+                >
+                  Fashion
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#homegoods"
+                  className="block px-4 py-2 text-white hover:bg-[#2E8B57]"
+                >
+                  Home Goods
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
       {/* Center: Logo */}
